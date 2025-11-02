@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 250px; /* Adjust based on sidebar width */
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
